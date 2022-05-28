@@ -1,0 +1,178 @@
+{
+  "id": "6192fc65-942c-48e9-9726-714bd65b0dcb",
+  "version": "2.0",
+  "name": "first project",
+  "url": "http://rahulshettyacademy.com",
+  "tests": [{
+    "id": "f8e062f6-8d2c-48d0-8372-7053d3f43f26",
+    "name": "first01",
+    "commands": [{
+      "id": "4178e5cd-e997-4b80-b94a-565372368fdc",
+      "comment": "",
+      "command": "open",
+      "target": "/angularpractice/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "125ba24d-fe8c-4162-800c-51b221483486",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a4cb283-3842-4176-bf9d-3eeddad2adb5",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0481dc96-0822-425e-8556-84394393e211",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.ng-valid:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bhola"
+    }, {
+      "id": "6f0bfb5d-36e6-4d96-a3ff-bfd76ee2b8ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.ng-untouched:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e332dde1-83ac-4765-a966-fa79ceee84eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.ng-untouched:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bhola@google.com"
+    }, {
+      "id": "ec2fa075-4190-467c-b78c-c7d1e90a9143",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "941e3b9b-efbc-4460-b815-973c249e9848",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "babu bhaiya"
+    }, {
+      "id": "cdc6dfe4-0511-42b3-8cfa-deef251929c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleFormControlSelect1",
+      "targets": [
+        ["id=exampleFormControlSelect1", "id"],
+        ["css=#exampleFormControlSelect1", "css:finder"],
+        ["xpath=//select[@id='exampleFormControlSelect1']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2808084f-c599-4b16-a3e8-a65051af5ca3",
+      "comment": "",
+      "command": "click",
+      "target": "name=bday",
+      "targets": [
+        ["name=bday", "name"],
+        ["css=.form-group:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bday']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cb61d0c-91bb-467e-9257-32f697a912f5",
+      "comment": "",
+      "command": "click",
+      "target": "name=bday",
+      "targets": [
+        ["name=bday", "name"],
+        ["css=.form-group:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bday']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd79b92-6037-427f-9d25-aee9f6a59624",
+      "comment": "",
+      "command": "click",
+      "target": "name=bday",
+      "targets": [
+        ["name=bday", "name"],
+        ["css=.form-group:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bday']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b0afffa-9a0d-4ff1-b24a-6582b3193c1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=bday",
+      "targets": [
+        ["name=bday", "name"],
+        ["css=.form-group:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bday']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "1997-01-06"
+    }, {
+      "id": "8dcc4a59-90bc-43b9-8101-1dac8f060dea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e40882ba-2058-4422-aa66-0e211271593d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8e062f6-8d2c-48d0-8372-7053d3f43f26"]
+  }],
+  "urls": ["http://rahulshettyacademy.com/"],
+  "plugins": []
+}
